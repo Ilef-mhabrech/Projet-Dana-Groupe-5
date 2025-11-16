@@ -1,5 +1,5 @@
 # Projet-Dana-Groupe-5
-## Les footballeurs les plus chers de 2021  
+# Les footballeurs les plus chers de 2021  
 ### Par : Dabin Yanis , Mhabrech Ilef , Mhedhbi Khalil 
 
 
@@ -19,15 +19,14 @@ puis nous l’avons importé dans OpenRefine afin d'effectuer le nettoyage et la
 
 ### 3. Transformation en RDF
 Nous avons utilisé l’extension RDF Transform d’OpenRefine pour convertir le CSV en RDF.
-## Étapes réalisées :
+#### Étapes réalisées :
 Installation de l’extension RDF Transform
 Création du modèle RDF
 Définition des préfixes (namespaces)
 Mappage des colonnes du CSV vers des propriétés RDF
 Nettoyage et uniformisation des données
 Export du résultat en format Turtle (.ttl)
-## Fichier obtenu : 
-``` players.ttl ```
+#### Fichier obtenu : ``` players.ttl ```
 
 ### 4 . Visualisation du graphe RDF
 Voici le graphe RDF obtenu à partir du fichier Turtle :
@@ -35,5 +34,6 @@ Voici le graphe RDF obtenu à partir du fichier Turtle :
 
 ### 5 . Résumé : 
 Nous avons réalisé l’ensemble du workflow de transformation :
+```
 CSV ➜ Nettoyage OpenRefine ➜ Modèle RDF ➜ Export Turtle ➜ Visualisation du graphe. 
-
+```
