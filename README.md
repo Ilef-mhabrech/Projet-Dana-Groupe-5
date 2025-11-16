@@ -20,12 +20,12 @@ puis nous l’avons importé dans OpenRefine afin d'effectuer le nettoyage et la
 ### 3. Transformation en RDF
 Nous avons utilisé l’extension RDF Transform d’OpenRefine pour convertir le CSV en RDF.
 #### Étapes réalisées :
-Installation de l’extension RDF Transform
-Création du modèle RDF
-Définition des préfixes (namespaces)
-Mappage des colonnes du CSV vers des propriétés RDF
-Nettoyage et uniformisation des données
-Export du résultat en format Turtle (.ttl)
+Installation de l’extension RDF Transform <br>
+Création du modèle RDF <br>
+Définition des préfixes (namespaces) <br>
+Mappage des colonnes du CSV vers des propriétés RDF<br>
+Nettoyage et uniformisation des données<br>
+Export du résultat en format Turtle (.ttl)<br>
 #### Fichier obtenu : ``` players.ttl ```
 
 ### 4 . Visualisation du graphe RDF
